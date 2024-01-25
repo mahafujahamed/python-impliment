@@ -22,5 +22,42 @@ print(newlist)
 newlist[3] = "papya"
 newlist.insert(2, "watermelon")
 newlist.append("cocunut")
-newlist.remove("bananaw") # remove item from the list
+newlist.remove("banana") # remove item from the list
 print(newlist)
+newlist.pop() # remove the last item from the list
+print(newlist)
+
+thislist =  ["apple", "banana", "cherry", "grap", "orange", "kiwi", "melon", "mango"]
+
+del thislist[-1]
+print(thislist)
+
+for x in thislist:
+    print(x)
+
+listmaker = ["fruit", "valuable", "vegetable"]
+i = 0
+while i < len(listmaker):
+    print(listmaker[i])
+    i = i + 1
+
+thislist =  ["apple", "banana", "cherry", "grap", "orange", "kiwi", "melon", "mango"]
+thislist.sort()
+print(thislist)
+listup = []
+
+for x in thislist:
+    if "a" in x:
+        listup.append(x)
+
+print(thislist)
+print(listup) 
+newlist = [x for x in thislist if x != "apple"]
+print(newlist)      
+
+listitem = [x for x in range(10)]
+print(listitem)
+listitem = [x for x in range(10) if x < 5]
+newlist = ['mahafuj' for x in range(10)]
+print(newlist)
+print(listitem)
