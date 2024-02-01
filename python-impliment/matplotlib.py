@@ -10,7 +10,7 @@ xpoints = np.array([0, 6])
 ypoints = np.array([0, 250])
 
 plt.plot(xpoints, ypoints)
-plt.show()
+# plt.show()
 
 #Two  lines to make our compiler able to draw:
 plt.savefig(sys.stdout.buffer)
