@@ -9,3 +9,6 @@ print(text.format(price))
 
 name = input("What is your name? ")
 print("Hi! " + name)
+
+age = input("What is your age? ")
+print("Your age is " + age)
