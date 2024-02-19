@@ -1,6 +1,6 @@
 name = input("Enter your name: ")
-print(name[2]) # 4th character
-print(name[-2]) # 3rd to last character
+print(name[2]) # 3rd character
+print(name[-2]) # 2nd last character
 print(name[0:5]) # first 5 characters
 print(name[0:len(name) - 2]) # all characters
 print(name[0:len(name):2]) # every 2nd character
